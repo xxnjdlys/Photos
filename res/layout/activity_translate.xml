@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:ignore="ContentDescription,RelativeOverlap,SpUsage">
+
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/svTranslateLayout"
+        android:layout_below="@id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:id="@+id/ivTranslateIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_native_target" />
+
+                <TextView
+                    android:id="@+id/tvTranslateNative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/ivTranslateIcon"
+                    android:layout_toStartOf="@+id/ivTranslateIcon"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="47dp"
+                    android:layout_marginRight="47dp"
+                    android:maxLength="13"
+                    android:enabled="true"
+                    android:drawableEnd="@mipmap/ic_arrow_down"
+                    android:drawableRight="@mipmap/ic_arrow_down"
+                    android:drawablePadding="9dp"
+                    android:textColor="#ff666666"
+                    android:textSize="14sp"
+                    tools:text="ChineseChinese" />
+
+                <TextView
+                    android:id="@+id/tvTranslateTarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ivTranslateIcon"
+                    android:layout_toEndOf="@+id/ivTranslateIcon"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginLeft="47dp"
+                    android:maxLength="13"
+                    android:enabled="true"
+                    android:drawableEnd="@mipmap/ic_arrow_down"
+                    android:drawableRight="@mipmap/ic_arrow_down"
+                    android:drawablePadding="9dp"
+                    android:textColor="#ff666666"
+                    android:textSize="14sp"
+                    tools:text="EnglishEnglish" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/flInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/etTranslateNative"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:minLines="5"
+                    android:gravity="top"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textMultiLine"
+                    android:imeOptions="actionSend|actionDone|actionGo"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:background="@drawable/bg_translate" />
+
+                <ProgressBar
+                    android:id="@+id/translateProgressbar"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:indeterminateDrawable="@drawable/custom_progress"
+                    tools:visibility="visible"/>
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/ivTranslateByNative"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/ic_translate" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llTranslateResult"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:visibility="visible">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_line"/>
+
+                <EditText
+                    android:id="@+id/etTranslateTarget"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:minLines="5"
+                    android:gravity="top"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textMultiLine"
+                    android:imeOptions="actionSend|actionDone|actionGo"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:background="@drawable/bg_translate" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivTranslateByTarget"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@mipmap/ic_send" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTranslateVip"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivTranslateVip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/ic_bt_vip" />
+
+                <TextView
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="77dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/translate_vip_recommend"
+                    android:textColor="#ff999999"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rlTranslateLang"
+        android:layout_below="@id/titlebar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <language.chat.meet.talk.widget.pinnedheaderlistview.PinnedHeaderListView
+            android:id="@+id/lvLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <ListView
+            android:id="@+id/key_list"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="true"
+            android:gravity="center"
+            android:headerDividersEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

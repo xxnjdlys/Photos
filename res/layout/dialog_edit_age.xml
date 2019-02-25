@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:ignore="SpUsage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/edit_age_title"
+        android:textColor="@color/label_text"
+        android:textSize="20dp" />
+
+    <cn.qqtheme.framework.widget.WheelView
+        android:id="@+id/rvEditAge"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="128dp"/>
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvEditAgeCancel"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="@string/edit_cancel"
+            android:textColor="@color/filter_text_color_normal"
+            />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1px" />
+
+        <TextView
+            android:id="@+id/tvEditAgeOk"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="@string/txt_btn_save"
+            android:textColor="@color/dialog_select_color"
+            />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="290dp"
+        android:layout_height="8dp" />
+
+</LinearLayout>

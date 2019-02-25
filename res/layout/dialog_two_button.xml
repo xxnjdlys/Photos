@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:fontFamily="sans-serif-medium"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:ellipsize="end"
+        tools:text="Edit nick name"
+        android:textColor="@color/filter_text_color_normal"
+        tools:ignore="SpUsage" />
+
+    <FrameLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <language.chat.meet.talk.widget.JustifyTextView
+            android:id="@+id/tvDialogDesc"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="Edit nick name Edit nick name Edit nick name Edit nick name"
+            android:textColor="@color/filter_text_color_normal" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginTop="32dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvLeft"
+            android:layout_width="72dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="@string/edit_cancel"
+            android:textColor="@color/filter_text_color_normal"
+            />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1px" />
+
+        <TextView
+            android:id="@+id/tvRight"
+            android:layout_width="72dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="@string/edit_ok"
+            android:textColor="@color/dialog_select_color"
+            />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="PxUsage">
+
+    <FrameLayout
+        android:id="@+id/rlTalkTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/action_bar_title_margin_top">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/talks_title"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:ignore="SpUsage" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_f4" />
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/includeImStatus"
+        layout="@layout/include_im_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/flRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvRecommendList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <include
+            android:id="@+id/lyLoading"
+            layout="@layout/include_loading"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/lyNetWork"
+            layout="@layout/layout_net_work"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/lyEmpty"
+            layout="@layout/layout_empty"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#955DFF</color>-->
+    <!--<color name="colorPrimaryDark">#955DFF</color>-->
+    <!--<color name="colorAccent">#955DFF</color>-->
+
+    <!--Android 8.0 logo 适配 背景色-->
+    <color name="ic_launcher_background">#8D5DFF</color>
+
+    <color name="gray_main_activity_tab_line">#dbdbdb</color>
+    <color name="pstsTabBackground">#fafbfd</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+    <color name="black10">#19000000</color>
+    <color name="black14">#19000000</color>
+    <color name="black20">#4C000000</color>
+    <color name="black30">#4C000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black70">#B2000000</color>
+    <color name="black90">#e6000000</color>
+
+    <color name="chat_tip_bg">#C4C4C4C4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white10">#1Affffff</color>
+    <color name="white20">#33FFFFFF</color>
+    <color name="white30">#4CFFFFFF</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white75">#AFFFFFFF</color>
+    <color name="white86">#DBFFFFFF</color>
+    <color name="white97">#F7FFFFFF</color>
+
+    <color name="red">#FF0000</color>
+    <color name="gray">#ededed</color>
+
+    <color name="tab_normal_color">#D4D4D4</color>
+    <color name="tab_selected_color">#A833FA</color>
+
+    <color name="gry_line">#f1f1f1</color>
+
+    <color name="filter_text_color_normal">#333333</color>
+    <color name="filter_text_color_selected">#7752F9</color>
+
+    <color name="label_0">#BA3EA0</color>
+    <color name="label_1">#C87725</color>
+    <color name="label_2">#254FC8</color>
+    <color name="label_3">#25C2C8</color>
+    <color name="label_4">#64daa7</color>
+
+    <color name="rate_color_d">#28998b</color>
+
+    <color name="bg_line">@color/main_divider</color>
+
+    <color name="bottom_banner_bg">#282828</color>
+    <color name="text_des">#999999</color>
+    <color name="action_bar_bg">#262626</color>
+
+    <color name="remote_blue">#1fb4ae</color>
+    <color name="sub_text_gray">#999999</color>
+    <color name="app_theme_color">#ffda44</color>
+    <color name="txt_grey">#999999</color>
+
+    <color name="gray_line">#ededed</color>
+
+    <color name="gray_bg">#fafafa</color>
+    <color name="like_message_male">#5ca7f9</color>
+    <color name="message_text_bg">#BAE1FF</color>
+
+    <color name="label_text">#333333</color>
+    <color name="label_alway_selected">#FF5E71</color>
+
+    <color name="terms_service_color">#4A93FF</color>
+
+    <color name="edit_msg_color">#DC5E5E</color>
+    <color name="bg_im_status_bar">#FFEFE8</color>
+    <color name="color_my_page_divider">#F6F6F6</color>
+
+    <color name="logout_color">#E41818</color>
+
+    <color name="dialog_select_color">#118675</color>
+    <color name="color_tab_normal">#cccccc</color>
+    <color name="txt_date_time">#c7c7c7</color>
+    <color name="color_chat_list_bg">#F6F6F6</color>
+    <color name="voice_msg_new">#43861F</color>
+
+    <color name="txt_dark_text_color">#ff333333</color>
+    <color name="edt_hint_color">#D6D6D6</color>
+    <color name="verify_code_bg_color">#ffa833fa</color>
+    <color name="divider_color">#ffe1e1e1</color>
+    <color name="login_btn_bg">#ededed</color>
+    <color name="txt_color_gray">#999999</color>
+    <color name="main_divider">#F4F4F4</color>
+    <color name="color_f4">#fff4f4f4</color>
+    <color name="meet_my_pic_bg">#FFE400</color>
+    <color name="meet_meet_pic_bg">#9C6EFD</color>
+
+    <color name="skip_text_color">#CFCFCF</color>
+</resources>

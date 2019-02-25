@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_talk_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:ignore="RtlCompat,ContentDescription,UselessParent,SpUsage">
+
+    <RelativeLayout
+        android:id="@+id/rl_head_layout"
+        android:layout_width="74dp"
+        android:layout_height="66dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:id="@+id/iv_talk_head"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/bg_talk_country" />
+
+            <ImageView
+                android:id="@+id/iv_native_language"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/rl_head_layout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_stranger_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:textColor="#d9333333"
+                    android:textSize="16dp"
+                    tools:text="POPPYPOPPYPOPPYPOPP" />
+
+                <TextView
+                    android:id="@+id/tv_stranger_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:textColor="#ff18a83b"
+                    android:textSize="12dp"
+                    android:visibility="gone"
+                    tools:text="[在线]" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_stranger_gender"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_stranger_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:textColor="#ff666666"
+                    android:textSize="12dp"
+                    tools:text="24岁" />
+
+                <TextView
+                    android:id="@+id/tv_stranger_lg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff666666"
+                    android:textSize="12dp"
+                    tools:text="CN > PN" />
+
+            </LinearLayout>
+
+            <language.chat.meet.talk.widget.flowlayout.TagFlowLayout
+                android:id="@+id/rl_stranger_label"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginTop="8dp"
+                app:margin="10" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_vertical"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_talk_hello"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:src="@mipmap/ic_talk"
+                android:visibility="gone"
+                tools:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/sayHiLoadingView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:indeterminateDrawable="@drawable/custom_progress"
+                tools:visibility="visible"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:background="@color/bg_line" />
+
+</RelativeLayout>

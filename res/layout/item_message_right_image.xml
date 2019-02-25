@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:id="@+id/item_right_image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/item_right_image_error"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/send_image_warning" />
+
+            <ProgressBar
+                android:id="@+id/item_right_image_loading"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/custom_progress_white"
+                android:visibility="invisible"
+                tools:visibility="visible" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/item_right_image"
+            android:layout_width="125dp"
+            android:background="#ffd8d8d8"
+            android:layout_height="220dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/item_right_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_right_image_layout"
+        android:layout_alignEnd="@id/item_right_image_layout"
+        android:layout_alignRight="@id/item_right_image_layout"
+        android:layout_marginTop="5dp"
+        android:textColor="#c7c7c7"
+        android:textSize="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    tools:ignore="SpUsage">
+
+    <TextView
+        android:id="@+id/tv_stranger_label"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_label_card"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingStart="10dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/white"
+        android:textSize="9dp" />
+
+</FrameLayout>

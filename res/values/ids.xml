@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="FRAGMENT_TALK" type="id" />
+    <item name="fragment_chat" type="id" />
+    <item name="fragment_my" type="id" />
+
+</resources>

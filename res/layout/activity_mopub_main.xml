@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="@color/white"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:id="@+id/ll_func"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_load_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="load banner"
+            />
+
+        <Button
+            android:id="@+id/btn_load_interstitial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="load interstitial"
+            />
+
+        <Button
+            android:id="@+id/btn_load_reward_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="load reward video"
+            />
+
+        <Button
+            android:id="@+id/btn_load_single_native"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="load single native ad"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_native_ad_container"
+        android:layout_below="@+id/ll_func"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!--ad container -->
+
+    </FrameLayout>
+
+</RelativeLayout>

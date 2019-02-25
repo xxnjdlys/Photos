@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlTalkTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/action_bar_title_margin_top"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/talks_title"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="SpUsage" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/vGrayLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_line"
+            tools:background="@color/black"
+            tools:layout_height="2dp" />
+
+        <include
+            android:id="@+id/includeImStatus"
+            layout="@layout/include_im_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <com.scwang.smartrefresh.layout.header.ClassicsHeader
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srlAccentColor="@color/black"
+                app:srlClassicsSpinnerStyle="Translate"
+                app:srlDrawableArrowSize="20dp"
+                app:srlDrawableMarginRight="20dp"
+                app:srlDrawableProgressSize="20dp"
+                app:srlDrawableSize="20dp"
+                app:srlEnableLastTime="true"
+                app:srlFinishDuration="500"
+                app:srlTextSizeTime="10dp"
+                app:srlTextSizeTitle="16dp"
+                app:srlTextTimeMarginTop="2dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/talkPageLoading"
+                    style="@style/AVLoadingIndicatorView"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="48dp"
+                    android:visibility="visible"
+                    app:indicatorColor="@color/tab_selected_color"
+                    app:indicatorName="BallPulseIndicator" />
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/talkPageLoading"-->
+                    <!--android:layout_width="48dp"-->
+                    <!--android:layout_height="48dp"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_marginTop="48dp"-->
+                    <!--android:visibility="visible"-->
+                    <!--android:indeterminateDrawable="@drawable/custom_progress"-->
+                    <!--tools:visibility="visible"-->
+                    <!--/>-->
+
+                <FrameLayout
+                    android:id="@+id/flRoot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvRecommendList"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <include
+                        android:id="@+id/lyNetWork"
+                        layout="@layout/layout_net_work"
+                        android:visibility="gone" />
+
+                    <include
+                        android:id="@+id/talkEmpty"
+                        layout="@layout/layout_empty"
+                        android:visibility="visible" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivTalkFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="70dp"
+        android:src="@mipmap/ic_filter"
+        tools:ignore="ContentDescription,RtlCompat" />
+
+</FrameLayout>

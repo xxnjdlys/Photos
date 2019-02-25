@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="SpUsage,RtlCompat,ContentDescription,RelativeOverlap">
+
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:id="@+id/vGrayLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line"
+        tools:background="@color/black"
+        tools:layout_height="2dp" />
+
+    <RelativeLayout
+        android:id="@+id/rlEditHead"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/edit_profile_photo"
+            android:textColor="@color/label_text"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/ivEditHeadArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_arrow_right_gray" />
+
+        <ImageView
+            android:id="@+id/ivEditHead"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_toStartOf="@+id/ivEditHeadArrow"
+            tools:src="@drawable/select_user_head_holder"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:id="@+id/rlEditName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/edit_nick_name"
+            android:textColor="@color/label_text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvEditName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textColor="@color/text_des"
+            android:textSize="12dp"
+            tools:text="@string/permission_addreee_require_describe" />
+
+        <ImageView
+            android:id="@+id/ivEditNameArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_arrow_right_gray" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:id="@+id/rlEditSign"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/edit_sign"
+            android:textColor="@color/label_text"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/tvEditAbstract"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:ellipsize="marquee"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textColor="@color/text_des"
+            android:textSize="12dp"
+            tools:text="@string/permission_addreee_require_describe" />
+
+        <ImageView
+            android:id="@+id/ivEditSignArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_arrow_right_gray" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F6F6F6" />
+
+    <RelativeLayout
+        android:id="@+id/rlEditGender"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/gender"
+            android:textColor="@color/label_text"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/ivEditGenderArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_arrow_right_gray" />
+
+        <ImageView
+            android:id="@+id/ivEditGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_toStartOf="@+id/ivEditGenderArrow"
+            tools:src="@mipmap/ic_male"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rlEditAge"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/edit_age"
+            android:textColor="@color/label_text"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/ivEditAgeArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_arrow_right_gray" />
+
+        <TextView
+            android:id="@+id/tvEditAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_toStartOf="@+id/ivEditAgeArrow"
+            android:textColor="@color/text_des"
+            android:textSize="12dp"
+            tools:text="18" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F6F6F6" />
+
+    <LinearLayout
+        android:id="@+id/llMyLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personalized_lables"
+                android:textColor="@color/label_text"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/ivMyLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_arrow_right_gray" />
+
+            <ImageView
+                android:id="@+id/ivMyLabelPoint"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@id/ivMyLabel"
+                android:background="@drawable/bg_my_point" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvMyLabelRecommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/label_hint"
+            android:textColor="#666666"
+            android:textSize="13dp" />
+
+        <language.chat.meet.talk.widget.flowlayout.TagFlowLayout
+            android:id="@+id/rvMylabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="13dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F6F6F6" />
+
+</LinearLayout>

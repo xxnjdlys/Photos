@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FAFAFA">
+
+        <language.chat.meet.talk.widget.pinnedheaderlistview.PinnedHeaderListView
+            android:id="@+id/lvChooseLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <ListView
+            android:id="@+id/lvChooseKey"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="true"
+            android:gravity="center"
+            android:headerDividersEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+</LinearLayout>

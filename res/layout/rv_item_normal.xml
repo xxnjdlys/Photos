@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llItemRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/rv_item_bg_round"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivUserHead"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:background="@mipmap/ic_head_default"
+            tools:src="@mipmap/ic_head_default" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/label_text"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:id="@+id/llGaA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/gender_age_round_bg"
+                android:orientation="horizontal"
+                android:paddingStart="6dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imgGender"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    tools:src="@mipmap/ic_male"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    tools:text="24岁" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/country_round_bg"
+                android:orientation="horizontal"
+                android:paddingStart="6dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/imgCountry"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_country_default"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvCountryName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/label_text"
+                    android:textSize="12dp"
+                    tools:ignore="SpUsage"
+                    tools:text="24岁" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

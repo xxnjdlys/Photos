@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_chat_apply"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    tools:ignore="RtlCompat,SpUsage,ContentDescription">
+
+    <ImageView
+        android:id="@+id/ivChatApplyHead"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="17dp"
+        android:src="@mipmap/ic_apply" />
+
+    <TextView
+        android:layout_toEndOf="@id/ivChatApplyHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:text="@string/poppy"
+        android:textColor="@color/label_text"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_chat_apply_num"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_my_point"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        tools:visibility="visible"
+        tools:text="99"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_divider"/>
+
+</RelativeLayout>

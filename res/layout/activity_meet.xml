@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_meet_start_bg" />
+
+        <ImageView
+            android:id="@+id/ivMeetUserIcon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center" />
+
+        <include
+            android:id="@+id/lyLoading"
+            layout="@layout/include_loading1"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btnMeet"
+        android:layout_width="184dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        android:background="@drawable/pic_start_meet_btn_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ivVipDiamond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/pic_vip_diamond" />
+
+            <TextView
+                android:id="@+id/tvMeetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jump_wait"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ivVipDiamondHint"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/pic_vip_diamond" />
+
+        <TextView
+            android:id="@+id/tvVipHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

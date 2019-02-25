@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">YoMe</string>
+    <string name="title_talks">发现</string>
+    <string name="title_chats">消息</string>
+    <string name="title_profile">我的</string>
+    <string name="tab_error_msg">正在加载</string>
+
+    <string name="txt_ad">广告</string>
+    <string name="txt_view_detail">查看详情</string>
+
+    <!--date-->
+    <string name="date_day">天</string>
+    <string name="date_hour">时</string>
+    <string name="date_minute">分</string>
+    <string name="date_seconds">秒</string>
+    <string name="date_just_now">刚刚</string>
+
+    <!--refresh-->
+    <string name="refresh_header_pulldown">下拉即可刷新</string>
+    <string name="refresh_header_refreshing">正在刷新&#8230;</string>
+    <string name="refresh_header_loading">正在加载&#8230;</string>
+    <string name="refresh_header_release">释放即可刷新</string>
+    <string name="refresh_header_finish">刷新完成</string>
+    <string name="refresh_header_failed">刷新失败，请重试</string>
+    <string name="refresh_header_last_time">上次刷新: M-d HH:mm</string>
+    <string name="refresh_header_last_time_type">\'Last update\' M-d HH:mm</string>
+
+    <!--LoginActivity-->
+    <string name="login_title">YOME</string>
+    <string name="login_msg">遇见更好的TA</string>
+    <string name="login_welcome">Facebook登录</string>
+    <string name="login_policy">登录即代表你同意<font fgcolor='#ffa833fa'>YOME服务</font>和<font fgcolor='#ffa833fa'>隐私条款</font></string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_service">服务条款</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_sign_fail">登录失败，请重试</string>
+    <string name="login_server_fail">网络链接失败，请检查后重试</string>
+    <string name="login_failed">登录失败</string>
+
+    <!--NativeLanguageActivity-->
+    <string name="native_lang_title">母语</string>
+    <string name="native_lang_label">我的母语是</string>
+    <string name="popular_language">热门语言</string>
+    <string name="language_format">%1$s&#160;(%2$s)</string>
+
+    <!--TargetLanguageActivity-->
+    <string name="target_lang_title">目标语言</string>
+    <string name="selected_native_language">母语：</string>
+    <string name="target_want_practice">想练习的目标语言</string>
+    <string name="target_language_hint">目标语言不可以和母语相同 </string>
+
+    <!--GreetAllActivity-->
+    <string name="greet_all_title">推荐好友</string>
+    <string name="skip">跳过</string>
+    <string name="wave_to_all">一键打招呼</string>
+    <string name="online">[在线]</string>
+    <string name="offline">[离线]</string>
+    <string name="native_target_0">%1$s&#160;>&#160;%2$s</string>
+    <string name="native_target_1">%1$s&#160;>&#160;%2$s&#160;%3$s</string>
+    <string name="native_target_2">%1$s&#160;>&#160;%2$s&#160;%3$s&#160;%4$s</string>
+    <string name="default_group">默认</string>
+    <string name="default_message">Hi，很高兴认识你!</string>
+    <string name="greet_all_remind">这些是我们精心为您挑选的语言伙伴，确定不打招呼吗</string>
+    <string name="greet_all_sure">确定</string>
+    <string name="greet_all_not_yet">取消</string>
+
+    <!--TalksFragment-->
+    <string name="talks_title">YoMe</string>
+
+    <!--ChatsFragment-->
+    <string name="Chats_title">消息</string>
+    <string name="poppy">好友请求</string>
+    <string name="chat_image">[图片]</string>
+    <string name="chat_voice">[语言]</string>
+    <string name="chat_file">[文件]</string>
+    <string name="chat_face">[表情]</string>
+    <string name="network_disconnected">网络链接失败，请检查后重试</string>
+    <string name="talk_error">打招呼失败，请重试</string>
+
+    <!--TalkFilterActivityvity-->
+    <string name="chat_filter_title">找喜欢</string>
+    <string name="native_language">母语</string>
+    <string name="target_language">感兴趣的语言</string>
+    <string name="filter_language_title">语言</string>
+    <string name="sure">筛选</string>
+    <string name="ages_between">年龄</string>
+    <string name="gender">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="other">其他</string>
+    <string name="tags">标签</string>
+    <string name="profile">个人资料</string>
+    <string name="personalized_lables">标签</string>
+    <string name="label_hint">添加标签，可以收到更多好友消息哦~</string>
+    <string name="filter_age">%1$d&#160;-&#160;%2$d</string>
+
+    <!--InfoEditActivity-->
+    <string name="edit_title">编辑</string>
+    <string name="edit_profile_photo">头像</string>
+    <string name="edit_nick_name">昵称</string>
+    <string name="edit_sign">简介</string>
+    <string name="edit_age">年龄</string>
+    <string name="edit_head_album">相册</string>
+    <string name="edit_head_camera">相机</string>
+    <string name="edit_nickname">编辑昵称</string>
+    <string name="edit_abstract">编辑简介</string>
+    <string name="not_find_photo">头像添加失败，请稍后重试</string>
+
+    <!--ChatApplysActivity-->
+    <string name="apply_title">好友请求</string>
+
+    <!--ChatMessageActivity-->
+    <string name="txt_send_message">发送</string>
+    <string name="local_time">当地时间</string>
+    <string name="place_input_right_txt">内容不可以为空</string>
+    <string name="chat_delete_success">删除</string>
+    <string name="please_input">请输入&#8230;</string>
+    <string name="chat_not_message_recommend">请文明交流，不要发送敏感信息。</string>
+    <string name="set_by_hand">设置</string>
+    <string name="permission_sdcard_require_describe" >Yome需要获取SD卡权限. 请在设置中授权.</string>
+    <string name="permission_sdcard2_require_describe" >Yome需要获取SD卡权限. 请在设置中授权</string>
+    <string name="toast_request_sdcard">请允许YoMe获取SD卡读取权限</string>
+    <string name="permission_sdcard_require_title">错误，请重试</string>
+    <string name="toast_request_camera">请允许YoMe获取相册访问权限</string>
+    <string name="permission_require_camera" >相册访问失败</string>
+    <string name="permission_camera_require_describe" >Yome需要获取相机权限. 请在设置中授权.</string>
+    <string name="permission_addreee_require_describe" >Yome需要读取联系人. 请在设置中授权.</string>
+
+    <string name="have_sended_friend_apply">发送成功</string>
+    <string name="friend_apply_agreed">好友关系已建立</string>
+
+    <!--TranslateActivity-->
+    <string name="translate_title">翻译</string>
+    <string name="translate_vip_recommend">非会员每天仅可免费翻译30次</string>
+    <string name="please_pruchase_premium">购买会员</string>
+
+    <!--CorrectionActivity-->
+    <string name="cor_title">改正</string>
+    <string name="cor_original">原句</string>
+
+    <!--LabelEditActivity-->
+    <string name="labbel_title">标签</string>
+    <string name="all_tags">全部标签</string>
+    <string name="label_edit">编辑</string>
+    <string name="label_save">保存</string>
+    <string name="label_selected">我的标签</string>
+    <string name="label_all_tags">全部标签</string>
+    <string name="edit_ok">保存</string>
+    <string name="txt_btn_save">保存</string>
+    <string name="edit_cancel">取消</string>
+
+    <!--MyFragment-->
+    <string name="friends">好友</string>
+    <string name="my_desc">添加自我介绍，可以让更多小伙伴找到你</string>
+
+    <!--MyFriendActivity-->
+    <string name="friend_delete">删除</string>
+    <string name="friend_cancel">取消</string>
+    <string name="vip_club">会员</string>
+    <string name="package_share_title">免费获得会员</string>
+    <string name="package_share_msg">分享YoMe给好友，可以获得一天会员权限</string>
+    <string name="package_title">会员</string>
+    <string name="package_info_title">开通会员你将会获得如下特权</string>
+    <string name="p_filter_title">高级筛选</string>
+    <string name="p_filter_msg">根据性别、标签筛选好友</string>
+    <string name="p_friend_title">不限量好友</string>
+    <string name="p_friend_msg">好友相加多少就加多少</string>
+    <string name="p_translate_title">不限次翻译</string>
+    <string name="p_translate_msg">想翻译多少次就翻译度搜好次</string>
+    <string name="pg_vip_recommend">你已经是会员了</string>
+
+    <!--MySetActivity-->
+    <string name="set_title">设置</string>
+    <string name="set_notifi">通知提示音</string>
+    <string name="set_target_language">目标语言</string>
+    <string name="set_term_service">服务条款</string>
+    <string name="set_privacy_policy">隐私权限</string>
+    <string name="set_version">版本</string>
+    <string name="set_log_out">退出登录</string>
+    <string name="edit_boy">男</string>
+    <string name="edit_girl">女</string>
+    <string name="edit_age_title">请选择年龄</string>
+    <string name="info_dialog_title">完善个人信息</string>
+    <string name="info_dialog_msg">完善个人资料，可以提高好友通过率，快点完善吧</string>
+    <string name="info_fill_out">去完善</string>
+    <string name="recommend_net_work">网络链接失败，单击页面重试</string>
+    <string name="recommend_empty">暂无消息，尝试主动和其他人打招呼吧</string>
+    <string name="stay_tuned">功能开发中，敬请期待</string>
+    <string name="select_except_target">母语不可以和目标语言相同</string>
+    <string name="select_except_native">目标语言不可以和母语相同</string>
+    <string name="max_chat_num">&#8230;</string>
+    <string name="txt_my_personal_information">Hi,这是我的名片</string>
+    <string name="txt_no_label_selected_toast">请至少添加一个标签</string>
+    <string name="txt_language_selected_limit">最多可以选择两个目标语言</string>
+    <string name="txt_select_one_lan">请至少选择一种语言</string>
+    <string name="txt_login_tips">授权失败，请重新登陆</string>
+    <string name="txt_relogin_tips">正在登陆</string>
+    <string name="txt_symble_bigger_than"><![CDATA[>]]></string>
+    <string name="txt_rate_title">免费获得会员</string>
+    <string name="txt_rate_desc">五星好评可以获得一天会员权限</string>
+    <string name="txt_rate">评价</string>
+    <string name="txt_rate_tips">感谢评价，您仍然有机会访问高级功能</string>
+    <string name="txt_need_select_rate">请选择星级</string>
+    <string name="txt_delete_conversion_tips">聊天记录一旦删除，无法恢复，确定删除吗？</string>
+    <string name="txt_delete_msg">确定删除聊天记录吗</string>
+    <string name="txt_reply_to_become_friend">回复消息即可建立好友关系</string>
+    <string name="voice_swipe_up">上划加载更多</string>
+    <string name="voice_cancel">松开 取消</string>
+    <string name="txt_friendship_tips">好友关系已建立</string>
+    <string name="txt_menu_copy">复制</string>
+    <string name="txt_menu_delete">删除</string>
+    <string name="txt_menu_open">打开</string>
+    <string name="txt_menu_share">分享</string>
+    <string name="txt_voice_state_0">按住 说话</string>
+    <string name="txt_voice_state_1">松开 结束</string>
+    <string name="txt_voice_state_2">手指上划，取消发送</string>
+    <string name="txt_voice_state_3">松开手指，取消发送</string>
+    <string name="txt_can_not_open">无法打开</string>
+    <string name="txt_hold_down_the_talk">按住说话</string>
+    <string name="txt_login_with_google">Google登录</string>
+    <string name="txt_new_msg_title">发送了一条新消息</string>
+
+    <string name="count_down">%ds(重新获取)</string>
+    <string name="txt_reverify_code">重新获取</string>
+    <string name="txt_phone_format_error">电话号格式错误.</string>
+    <string name="txt_phone_login_title">Hi,交流从这开始</string>
+    <string name="txt_phone_prefix">+86</string>
+    <string name="txt_enter_phone_num">请输入手机号</string>
+    <string name="txt_verify_code">验证码</string>
+    <string name="txt_enter_verify_code">请输入验证码</string>
+    <string name="txt_get_verify_code">获取验证码</string>
+    <string name="txt_login_or_register">登录/注册</string>
+    <string name="txt_input_right_verify_code">请输入正确的验证码</string>
+    <string name="txt_phone_login_fail">手机登录失败</string>
+    <string name="txt_title_service_and_privacy">服务和隐私条款</string>
+    <string name="txt_confirm">确定</string>
+    <string name="txt_input_phone_num">请输入电话号码</string>
+    <string name="txt_native_lan_select_hint">请选择您的母语</string>
+    <string name="txt_lang_chinese">中文</string>
+    <string name="txt_what_lang_do_you_want">您感兴趣的外语?</string>
+    <string name="txt_learn_lang_hint">请选择您想学习的语言</string>
+    <string name="txt_start_yome">开启YOME</string>
+    <string name="txt_go_pre">返回上一步</string>
+    <string name="txt_continue">继续</string>
+    <string name="txt_upload_photo_hint">上传真实头像</string>
+    <string name="txt_upload_photo_desc">所有人都用自己的真实头像来认识彼此,请上传真实头像,我们将在24小时内完成审核.</string>
+    <string name="txt_input_name">取一个昵称</string>
+    <string name="txt_input_name_hint">请输入昵称</string>
+    <string name="txt_name_format_desc">昵称支持26个字母,大小写,不支持特殊符号</string>
+    <string name="txt_uploaod_error_toast">上传出错,请稍后重试</string>
+    <string name="txt_select_user_head">请选择一个头像</string>
+    <string name="txt_name_can_not_null">名字不能为空</string>
+    <string name="txt_name_format_error">名字有非法字符</string>
+    <string name="txt_age_format_error">施主别闹!</string>
+    <string name="txt_select_birthday">请选择您的生日</string>
+    <string name="txt_select_gender">请选择您的性别</string>
+    <string name="txt_select_language">语言选择</string>
+    <string name="txt_gender_male">男</string>
+    <string name="txt_gender_female">女</string>
+    <string name="txt_native_language_desc">您的母语是?</string>
+    <string name="txt_asterisk">•</string>
+    <string name="txt_meet_title">偶遇</string>
+    <string name="txt_find_like_title">找喜欢</string>
+    <string name="txt_skip_wait">跳过限制</string>
+    <string name="txt_guess_u_like">猜你喜欢</string>
+    <string name="txt_next_recmd">下次推荐: </string>
+    <string name="txt_next_auto_recmd">自动推荐: </string>
+    <string name="txt_switch_likes">换一换</string>
+    <string name="txt_title_country">国家</string>
+    <string name="txt_title_age">年龄</string>
+    <string name="txt_title_language">语言</string>
+    <string name="txt_title_gender">性别</string>
+    <string name="txt_vip_title">会员筛选特权</string>
+    <string name="txt_btn_clear">重置</string>
+    <string name="txt_no_more_data">没有更多数据.</string>
+    <string name="today_meet_number_done">今日免费匹配数已用完</string>
+    <string name="jump_wait">跳过限制</string>
+    <string name="start_match">开始匹配</string>
+    <string name="today_surplus">今日剩余匹配数：%1$s次</string>
+    <string name="today_num_done">今日免费匹配数已用完</string>
+    <string name="meet_matching0">匹配中.</string>
+    <string name="meet_matching1">匹配中..</string>
+    <string name="meet_matching2">匹配中...</string>
+    <string name="meet_cancel_btn">取消</string>
+    <string name="meet_dialog_title">你想匹配什么样的人？</string>
+    <string name="meet_little_girl">小姐姐</string>
+    <string name="meet_little_boy">小哥哥</string>
+    <string name="meet_no_match">不挑剔</string>
+    <string name="meet_dialog_btn">确定</string>
+    <string name="meet_know_ta">认识TA</string>
+    <string name="meet_result_cancel">放弃</string>
+    <string name="txt_filter_need_vip">此功能需要开通会员</string>
+    <string name="txt_tips_left_counts"><![CDATA[你还可以给 <big>%s</big> 人发消息]]></string>
+    <string name="txt_reset_left_counts"><![CDATA[<big>%s</big> 后开启打招呼]]></string>
+    <string name="meet_vip_hint">你已享有无限匹配特权</string>
+
+    <string name="txt_guide_title_step1">这个APP很国际</string>
+    <string name="txt_guide_desc_step1">这有来自100多个国家的小伙伴\n你可以正经学习语言或解闷闲聊</string>
+    <string name="txt_guide_title_step2">这有特别的“猿粪”</string>
+    <string name="txt_guide_desc_step2">世界那么大，TA们远在天边\n也能聊对你口味</string>
+    <string name="txt_guide_title_step3">和老外无障碍聊天</string>
+    <string name="txt_guide_desc_step3">翻译机、斗图、表情包\n交流可以如此简单随意</string>
+    <string name="txt_start_now">立即体验</string>
+    <string name="txt_filter_empty">筛选结果为空，更换条件试试吧</string>
+    <string name="txt_fate_fen">缘分指数%1$s</string>
+    <string name="match_meet_error">匹配失败，请稍后重试</string>
+</resources>

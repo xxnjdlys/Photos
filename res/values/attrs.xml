@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeSeekBar">
+        <attr name="max" format="float"/>
+        <attr name="min" format="float"/>
+        <attr name="rs_lineHeight" format="integer"/>
+        <attr name="reserve" format="float"/>
+        <attr name="cells" format="integer"/>
+        <attr name="lineColorSelected" format="color"/>
+        <attr name="lineColorEdge" format="color"/>
+        <attr name="seekBarResId" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"/>
+        <attr name="margin" format="integer"/>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

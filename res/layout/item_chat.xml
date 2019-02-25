@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_chat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    tools:ignore="RtlCompat,ContentDescription,UselessParent,SpUsage,RelativeOverlap">
+
+    <RelativeLayout
+        android:id="@+id/rl_head_layout"
+        android:layout_width="67dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/iv_chat_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:background="@drawable/bg_talk_country"/>
+
+            <ImageView
+                android:id="@+id/iv_native_language"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_toEndOf="@id/rl_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxWidth="220dp"
+                android:textColor="@color/label_text"
+                android:layout_marginEnd="6dp"
+                android:textSize="18dp"
+                tools:text="LILLILILILILILILILI"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/tv_chat_last_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="12dp"
+                android:singleLine="true"
+                tools:text="14:30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tv_chat_last"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#999999"
+                android:textSize="14dp"
+                android:layout_marginEnd="20dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                tools:text="i am so busy i am so busy i am so busyl i am so busy" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_chat_unread_num"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_my_point"
+                android:gravity="center"
+                android:paddingStart="4dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="4dp"
+                android:paddingBottom="2dp"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                tools:visibility="visible"
+                tools:text="99" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_line"/>
+
+</RelativeLayout>

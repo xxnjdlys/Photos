@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/voice_dialog_bg">
+
+    <FrameLayout
+        android:id="@+id/chat_voice_dialog_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/icon_vioce" />
+
+            <ImageView
+                android:id="@+id/chat_voice_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/chat_voice_db" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chat_voice_dialog_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="9dp"
+            android:text="@string/txt_voice_state_2"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/chat_voice_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:layout_width="32dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icon_vioce_cancel" />
+
+        <TextView
+            android:id="@+id/chat_voice_dialog_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:background="#A81F1B"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="9dp"
+            android:text="@string/voice_cancel"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+</FrameLayout>

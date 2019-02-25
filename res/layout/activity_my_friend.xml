@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpUsage">
+
+    <include layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/deleteFriendLoadingView"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:indicatorColor="@color/tab_selected_color"
+            app:indicatorName="BallPulseIndicator" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvFriendList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include
+            android:id="@+id/lyEmpty"
+            layout="@layout/layout_empty" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvFriendDelete"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/tab_selected_color"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:text="@string/friend_delete" />
+
+</LinearLayout>
