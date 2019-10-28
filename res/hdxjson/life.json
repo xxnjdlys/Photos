@@ -1,0 +1,288 @@
+{
+    "status": 0,
+    "message": "这里是错误信息!!!.",
+    "data": {
+        "category": {
+            "title": "营生活tab的数据",
+            "list": [
+                {
+                    "id": 0,
+                    "name": "好好学习",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "天天向上",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "学而时习",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "子曰成人",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "惊不惊喜",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "意不意外",
+                    "desc": "这里是描述",
+                    "items": [
+                        {
+                            "title": "第一条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第二条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "router": "/pages/home/index"
+                        },
+                        {
+                            "title": "第三条数据",
+                            "desc": "这里是描述",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
+                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "router": "/pages/home/index"
+                        }
+                    ]
+                }
+            ]
+        },
+        "recommend": {
+            "title": "这里是推荐的标题.",
+            "list": [
+                {
+                    "name": "长安十二时辰",
+                    "statKey": "长安十二时辰",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/changna.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=999998835&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "小欢喜",
+                    "statKey": "小欢喜",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/xiaohuanxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000007321&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "全职高手",
+                    "statKey": "全职高手",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/quanzhi.png",
+                    "corner": "http://img.wukongtv.com/img/redian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000006209&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "烈火军校",
+                    "statKey": "烈火军校",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/liehuo.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000008626&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "宸汐缘",
+                    "statKey": "宸汐缘",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/chenxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000004353&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "老酒馆",
+                    "statKey": "老酒馆",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/jg.png",
+                    "corner": "http://img.wukongtv.com/img/qiangxian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000013171&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "山月不知心底事",
+                    "statKey": "山月不知心底事",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/shanyue.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000011842&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "我的邻居睡不着",
+                    "statKey": "我的邻居睡不着",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/4/p2555646564.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000010595&/dianbo/find"
+                    }
+                }
+            ]
+        }
+    }
+}

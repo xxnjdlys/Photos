@@ -1,0 +1,286 @@
+{
+    "status": 0,
+    "message": "这里是错误信息!!!.",
+    "data": {
+        "banner": {
+            "title": "华尔街英语(北苑路北)",
+            "star" : "4.2分",
+            "desc": "112条 421人已预约",
+            "address" : "朝阳区广顺北大街33号望京凯德MALL3层(地铁14号线阜通站A口出)距离地铁14号线阜通站A1西北出口步行22m",
+            "phone" : "4008005555",
+            "list": [
+                {
+                    "title": "庆黄晓明语录“喜”登央视 悟空大礼来谢",
+                    "cover": "https://tva1.sinaimg.cn/large/006y8mN6ly1g7rra52r3kj303f02ljrb.jpg",
+                    "router": "/pages/my/index"
+                },
+                {
+                    "title": "陆战之王",
+                    "cover": "https://tva1.sinaimg.cn/large/006y8mN6ly1g7rr9d53l1j303j02h3yg.jpg",
+                    "router": "/pages/my/index"
+                },
+                {
+                    "title": "开学季电影合集",
+                    "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                    "router": "/pages/my/index"
+                },
+                {
+                    "title": "激荡中国",
+                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/p2566153746.png",
+                    "router": "/pages/home/index"
+                },
+                {
+                    "title": "九月观影指南",
+                    "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/9yue/1523.png",
+                    "router": "/pages/home/index"
+                },
+                {
+                    "title": "头号型动派",
+                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/touhao.png",
+                    "router": "/pages/home/index"
+                },
+                {
+                    "title": "九千米爱情",
+                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/jiuq.png",
+                    "router": "/pages/home/index"
+                },
+                {
+                    "title": "小猪佩奇第七季",
+                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/4/big/peiqi7.png",
+                    "router": "/pages/home/index"
+                }
+            ]
+        },
+        "recommend": {
+            "title": "这里是团购的标题.",
+            "list": [
+                {
+                    "name": "长安十二时辰",
+                    "statKey": "长安十二时辰",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/changna.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=999998835&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "小欢喜",
+                    "statKey": "小欢喜",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/xiaohuanxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000007321&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "陈情令",
+                    "statKey": "陈情令",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/7.1/cql_1.jpg",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=900002266&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "全职高手",
+                    "statKey": "全职高手",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/quanzhi.png",
+                    "corner": "http://img.wukongtv.com/img/redian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000006209&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "烈火军校",
+                    "statKey": "烈火军校",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/liehuo.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000008626&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "宸汐缘",
+                    "statKey": "宸汐缘",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/chenxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000004353&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "老酒馆",
+                    "statKey": "老酒馆",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/jg.png",
+                    "corner": "http://img.wukongtv.com/img/qiangxian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000013171&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "山月不知心底事",
+                    "statKey": "山月不知心底事",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/shanyue.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000011842&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "我的邻居睡不着",
+                    "statKey": "我的邻居睡不着",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/4/p2555646564.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000010595&/dianbo/find"
+                    }
+                }
+            ]
+        },
+        "lesson": {
+            "title": "这里是课程的标题.",
+            "list": [
+                {
+                    "name": "小欢喜",
+                    "statKey": "小欢喜",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/xiaohuanxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000007321&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "陈情令",
+                    "statKey": "陈情令",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/7.1/cql_1.jpg",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=900002266&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "全职高手",
+                    "statKey": "全职高手",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/quanzhi.png",
+                    "corner": "http://img.wukongtv.com/img/redian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000006209&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "烈火军校",
+                    "statKey": "烈火军校",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/liehuo.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000008626&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "宸汐缘",
+                    "statKey": "宸汐缘",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/chenxi.png",
+                    "corner": "http://img.wukongtv.com/img/dajieju_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000004353&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "老酒馆",
+                    "statKey": "老酒馆",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/jg.png",
+                    "corner": "http://img.wukongtv.com/img/qiangxian_new.png",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000013171&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "山月不知心底事",
+                    "statKey": "山月不知心底事",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/shanyue.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000011842&/dianbo/find"
+                    }
+                },
+                {
+                    "name": "我的邻居睡不着",
+                    "statKey": "我的邻居睡不着",
+                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/4/p2555646564.png",
+                    "corner": "",
+                    "score": "",
+                    "mark": "",
+                    "router": {
+                        "tvVersion": "0",
+                        "phoneVersion": "0",
+                        "action": "wukongtv://videodetails?wkid=1000010595&/dianbo/find"
+                    }
+                }
+            ]
+        }
+    }
+}
