@@ -11,42 +11,42 @@
             "list": [
                 {
                     "title": "庆黄晓明语录“喜”登央视 悟空大礼来谢",
-                    "cover": "https://tva1.sinaimg.cn/large/006y8mN6ly1g7rra52r3kj303f02ljrb.jpg",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b1.jpg",
                     "router": "/pages/my/index"
                 },
                 {
                     "title": "陆战之王",
-                    "cover": "https://tva1.sinaimg.cn/large/006y8mN6ly1g7rr9d53l1j303j02h3yg.jpg",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b2.jpg",
                     "router": "/pages/my/index"
                 },
                 {
                     "title": "开学季电影合集",
-                    "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b3.png",
                     "router": "/pages/my/index"
                 },
                 {
                     "title": "激荡中国",
-                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/p2566153746.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b4.png",
                     "router": "/pages/home/index"
                 },
                 {
                     "title": "九月观影指南",
-                    "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/9yue/1523.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b5.png",
                     "router": "/pages/home/index"
                 },
                 {
                     "title": "头号型动派",
-                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/touhao.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b5.png",
                     "router": "/pages/home/index"
                 },
                 {
                     "title": "九千米爱情",
-                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/jiuq.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b7.png",
                     "router": "/pages/home/index"
                 },
                 {
                     "title": "小猪佩奇第七季",
-                    "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/4/big/peiqi7.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/banner/b8.png",
                     "router": "/pages/home/index"
                 }
             ]
@@ -57,7 +57,7 @@
                 {
                     "name": "长安十二时辰",
                     "statKey": "长安十二时辰",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/changna.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r1.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -70,7 +70,7 @@
                 {
                     "name": "小欢喜",
                     "statKey": "小欢喜",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/xiaohuanxi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r2.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -83,7 +83,7 @@
                 {
                     "name": "陈情令",
                     "statKey": "陈情令",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/7.1/cql_1.jpg",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r3.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -96,7 +96,7 @@
                 {
                     "name": "全职高手",
                     "statKey": "全职高手",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/quanzhi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r4.png",
                     "corner": "http://img.wukongtv.com/img/redian_new.png",
                     "score": "",
                     "mark": "",
@@ -109,7 +109,7 @@
                 {
                     "name": "烈火军校",
                     "statKey": "烈火军校",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/liehuo.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r5.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
@@ -122,7 +122,7 @@
                 {
                     "name": "宸汐缘",
                     "statKey": "宸汐缘",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/chenxi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r6.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -135,7 +135,7 @@
                 {
                     "name": "老酒馆",
                     "statKey": "老酒馆",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/jg.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r7.png",
                     "corner": "http://img.wukongtv.com/img/qiangxian_new.png",
                     "score": "",
                     "mark": "",
@@ -148,7 +148,7 @@
                 {
                     "name": "山月不知心底事",
                     "statKey": "山月不知心底事",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/shanyue.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r8.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
@@ -161,7 +161,7 @@
                 {
                     "name": "我的邻居睡不着",
                     "statKey": "我的邻居睡不着",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/4/p2555646564.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/recommend/r9.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
@@ -179,7 +179,7 @@
                 {
                     "name": "小欢喜",
                     "statKey": "小欢喜",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/xiaohuanxi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l1.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -192,7 +192,7 @@
                 {
                     "name": "陈情令",
                     "statKey": "陈情令",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/7.1/cql_1.jpg",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l2.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -205,7 +205,7 @@
                 {
                     "name": "全职高手",
                     "statKey": "全职高手",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/quanzhi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l3.png",
                     "corner": "http://img.wukongtv.com/img/redian_new.png",
                     "score": "",
                     "mark": "",
@@ -218,7 +218,7 @@
                 {
                     "name": "烈火军校",
                     "statKey": "烈火军校",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/2/liehuo.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l4.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
@@ -231,7 +231,7 @@
                 {
                     "name": "宸汐缘",
                     "statKey": "宸汐缘",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/1/chenxi.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l5.png",
                     "corner": "http://img.wukongtv.com/img/dajieju_new.png",
                     "score": "",
                     "mark": "",
@@ -244,7 +244,7 @@
                 {
                     "name": "老酒馆",
                     "statKey": "老酒馆",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/jg.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l6.png",
                     "corner": "http://img.wukongtv.com/img/qiangxian_new.png",
                     "score": "",
                     "mark": "",
@@ -257,7 +257,7 @@
                 {
                     "name": "山月不知心底事",
                     "statKey": "山月不知心底事",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/5/shanyue.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l7.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
@@ -270,7 +270,7 @@
                 {
                     "name": "我的邻居睡不着",
                     "statKey": "我的邻居睡不着",
-                    "cover": "http://img.wukongtv.com/wkremote/video/shutu_banner/8yue/4/p2555646564.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/detail/lesson/l8.png",
                     "corner": "",
                     "score": "",
                     "mark": "",
