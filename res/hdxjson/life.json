@@ -13,22 +13,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c01.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c01.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c01.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c02.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c02.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c03.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c03.png",
                             "router": "/pages/home/index"
                         }
                     ]
@@ -41,22 +41,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c11.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c11.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c12.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c12.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c13.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c13.png",
                             "router": "/pages/home/index"
                         }
                     ]
@@ -69,22 +69,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c21.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c21.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c22.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c22.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/category/c23.jpg",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c23.png",
                             "router": "/pages/home/index"
                         }
                     ]
@@ -97,22 +97,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c31.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c32.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c33.png",
                             "router": "/pages/home/index"
                         }
                     ]
@@ -125,22 +125,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c41.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c42.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c43.png",
                             "router": "/pages/home/index"
                         }
                     ]
@@ -153,22 +153,22 @@
                         {
                             "title": "第一条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/zhuanti_web/kaixue/KAI.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c51.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第二条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/1233(1).png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c5.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c52.png",
                             "router": "/pages/home/index"
                         },
                         {
                             "title": "第三条数据",
                             "desc": "这里是描述",
-                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.jpg",
-                            "cover": "http://img.wukongtv.com/wkremote/video/hengtu_banner/8yue/5/big/luz.png",
+                            "icon": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/c4.png",
+                            "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/life/category/c53.png",
                             "router": "/pages/home/index"
                         }
                     ]

@@ -143,7 +143,7 @@
                 },
                 {
                     "title": "最热竖直展示图片",
-                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/hot/h4.png",
+                    "cover": "https://raw.githubusercontent.com/xxnjdlys/Photos/master/res/home/hot/h4.jpg",
                     "router": "/pages/my/index"
                 }
             ]
